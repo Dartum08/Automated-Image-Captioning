@@ -1,0 +1,5 @@
+# Below path contains all the images
+images = '/content/drive/My Drive/Image Captioning Data/Flicker8k_Dataset/'
+
+# Create a list of all image names in the directory
+img = glob.glob(images + '*.jpg')
