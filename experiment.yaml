@@ -1,0 +1,18 @@
+Experiment:
+  id: 'exp-001'
+  info: "Testing is going on"
+
+Dataset:
+  image:
+    data_folder: 'G:\Image Captioning\Flicker8k_Dataset'
+    extract_features: False
+    feature_path: 'G:\Image Captioning\Pickle\encoded_images.pl'
+
+  text:
+    data_folder: 'G:\Image Captioning\text_data\Flickr8k.token.txt'
+    train_filepath: 'G:\Image Captioning\text_data\Flickr_8k.trainImages.txt'
+    val_filepath: 'G:\Image Captioning\text_data\Flickr_8k.devImages.txt'
+    test_filepath: 'G:\Image Captioning\text_data\Flickr_8k.testImages.txt'
+
+    embedding_dir: 'G:\Image Captioning\GloVe\glove.6B.200d.txt'
+    embedding_dim: 200
